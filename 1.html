@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+  <body>
+    <div class="showcase">
+
+ 
+
+
+      <nav class="navbar">
+        <ul>
+            <li><a href="serivce.html">Services</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+
+        </ul>
+      </nav>
+
+      <video muted loop autoplay plays-inline>
+        <source src="video.mp4" type="video/mp4" />
+      </video> 
+      <div class="container in-left">
+        <div class="text">
+          <h2>Elevate Your Fitness Journey with Us</h2>
+          <p>
+            Welcome to our virtual world of fitness. From personal
+            training sessions to a range of fitness products, we've got you
+            covered. Join our community today and let's achieve your fitness
+            goals together!
+          </p>
+          <a href="serivce.html">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools">
+      <div class="toolsheader">
+        <h1>The Tools for Your Goals</h1>
+        <p>
+          Looking to shed some pounds, firm up your muscles, reduce your BMI, or
+          prioritize your overall well-being? We offer the necessary features to
+          help you achieve your goals.
+        </p>
+      </div>
+
+      <div class="toolscontent fade-in-left">
+        <div class="card ">
+          <div>
+            <img
+              src="  data:image/png;base64,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"
+            />
+          </div>
+          <div>
+            <h3>Nutrition</h3>
+            <p>
+              The adherence to a proper diet and its benefits in sports cannot
+              be overstated.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <img
+              src="https://img.freepik.com/premium-vector/yoga-guru-lotus-pose-relaxing-meditating-man-blue-silhouette-zen-condition-vector-mark_261737-784.jpg"
+            />
+          </div>
+          <div>
+            <h3>Relaxing</h3>
+            <p>
+              Rest and recovery are essential components of any athlete's
+              training regimen, as they allow the body to repair and rebuild,
+              ultimately enhancing overall performance.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <img
+              src="https://t4.ftcdn.net/jpg/02/03/19/03/360_F_203190365_ITA15blQuR2DihmeipRp7oWUETVhyWA6.jpg"
+            />
+          </div>
+          <div>
+            <h3>Active lifestyle</h3>
+            <p>
+              Adopting an active lifestyle is crucial for success in sports, as
+              it promotes physical fitness, mental well-being, and overall
+              health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more">
+      <h1>
+        <span class="blue"> Regular exercise</span> and a
+        <span class="blue">healthy lifestyle</span> have numerous benefits for
+        the human body. Exercise helps prevent several diseases such as
+        <span class="blue">heart disease</span>,
+        <span class="blue">high blood pressure</span>, and
+        <span class="blue">diabetes</span>. A healthy lifestyle includes a
+        balanced diet, regular exercise, adequate sleep, and stress management,
+        all of which contribute to overall
+        <span class="blue">physical</span> and <span class="blue">mental</span>
+        well-being.
+      </h1>
+
+      <a href="serivce.html">Let s get started.</a>
+    </div>
+
+    <div class="us">
+      <div class="usleft">
+        <div class="services cardserv">
+          <h3>Services</h3>
+          <p>
+            Personal Training | Group Fitness Classes <br />
+            Online Fitness Programs | Nutrition Coaching
+          </p>
+          <a href="serivce.html">Learn more</a>
+        </div>
+
+        <div class="coaches cardserv">
+          <h3>Coaches</h3>
+          <p>Man | Women</p>
+          <a href="coaches.html">Learn more</a>
+        </div>
+      </div>
+      <div class="usright cardserv">
+        <h1>About us</h1>
+
+        <p>
+          At our company, we understand the importance of living a healthy
+          lifestyle. That's why we are dedicated to helping people achieve their
+          fitness goals through effective training programs and personalized
+          coaching.We are passionate about helping our clients transform their
+          lives and become the best version of themselves.
+        </p>
+
+        <a href="about.html">Learn more</a>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <h1>Services</h1>
+      <div class="mySlides fade">
+        <h2>Personal Training</h2>
+        <p>
+          We provide <span class="blue"> training services</span> that are
+          customized to help clients achieve their fitness goals efficiently and
+          effectively. With my guidance and expertise, individuals can receive
+          <span class="blue"> tailored workout plans</span> and to reach their
+          desired <span class="blue">results</span>.
+        </p>
+        <a href="serivce.html#pt">Learn more</a>
+      </div>
+
+      <div class="mySlides fade">
+        <h2>Group Fitness Classes</h2>
+        <p>
+          Group fitness classes are an excellent way to stay<span class="blue">
+           motivated</span
+          >
+          and <span class="blue">enjoy</span> the benefits of working out in a
+          <span class="blue">fun and supportive environment</span>. Whether it's
+          high-intensity interval <span class="blue">training</span>, <span class="blue">yoga</span>, or <span class="blue">dance-based classes</span>, there
+          is something for everyone.
+        </p>
+        <a href="serivce.html#gfc">Learn more</a>
+      </div>
+
+      <div class="mySlides fade">
+        <h2>Online Fitness Programs</h2>
+        <p>
+          Online fitness programs offer a
+          <span class="blue">convenient</span> and
+          <span class="blue">flexible</span> way for individuals to achieve
+          their <span class="blue">fitness goals</span> from the comfort of
+          their own home. With a variety of programs available, individuals can
+          choose from guided <span class="blue">workout plans</span>, <span class="blue"><nutrition/span>.
+        </p>
+        <a href="serivce.html#ofp">Learn more</a>
+      </div>
+
+      <div class="mySlides fade">
+        <h2>Nutrition Coaching</h2>
+        <p>
+          Nutrition coaching is a valuable service that provides individuals
+          with <span class="blue">personalized</span> support and guidance to <span class="blue">improve</span> their overall <span class="blue">health</span>
+          and <span class="blue">wellness</span> through nutrition. A nutrition coach can <span class="blue">help </span>clients
+          identify their nutritional needs, develop a personalized plans.
+        </p>
+        <a href="serivce.html#nc">Learn more</a>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="bmi">
+     <!-- <video muted loop autoplay plays-inline>
+        <source src="bmi2.mp4" type="video/mp4" />
+      </video> --> 
+      <h1>BMI calculator</h1>
+      <div class="bmicontent">
+        <div class="bmileft">
+          <label for="height">Enter your height</label>
+          <input type="number" id="height" placeholder="cm" />
+          <br />
+          <label for="weight">Enter your weight</label>
+          <input type="number" id="weight" placeholder="kg" />
+          <br />
+          <input
+            type="submit"
+            id="submit"
+            onclick="Click ()"
+            value="Calculate"
+          />
+        </div>
+
+        <div class="bmiright">
+          <h3 id="bmititle"></h3>
+          <p id="bmidescription"></p>
+          <p id="bmi1">
+            If your BMI is below 18.5, it is considered underweight according to
+            the World Health Organization. This can increase your risk of health
+            issues such as nutrient deficiencies and a weakened immune system.
+            To achieve a healthy weight, it is important to focus on a balanced
+            diet and regular exercise routine, and consulting with a healthcare
+            professional or registered dietitian can also be helpful.
+          </p>
+
+          <p id="bmi2">
+            If your BMI falls between 18.5 and 25, it is considered within the
+            healthy range according to the World Health Organization. However,
+            it is still important to maintain a healthy diet and exercise
+            routine to prevent health issues and maintain overall well-being.
+            Regular check-ups with a healthcare professional can also help
+            monitor your BMI and overall health.
+          </p>
+
+          <p id="bmi3">
+            If your BMI falls between 25 and 30, it is considered overweight
+            according to the World Health Organization. This can increase your
+            risk of health issues such as diabetes, heart disease, and high
+            blood pressure. It is important to focus on a balanced diet and
+            regular exercise routine to achieve a healthy weight. Consulting
+            with a healthcare professional or registered dietitian can also be
+            helpful in developing a personalized plan to achieve a healthy BMI.
+          </p>
+
+          <p id="bmi4">
+            If your BMI is above 30, it is considered obese according to the
+            World Health Organization. This significantly increases your risk of
+            health issues such as heart disease, stroke, diabetes, and certain
+            cancers. It is important to take steps to achieve a healthy weight
+            through a combination of a balanced diet and regular exercise.
+            Consulting with a healthcare professional or registered dietitian
+            can also be helpful in developing a personalized plan to achieve a
+            healthy BMI and reduce the risk of associated health issues.
+          </p>
+          <div id="bmi5">
+            <p>
+              BMI stands for Body Mass Index, which is a measure of body fat
+              based on height and weight. It is commonly used to classify
+              individuals as underweight, normal weight, overweight, or obese,
+              and can be an indicator of potential health risks associated with
+              weight.
+            </p>
+            <ul>
+              <li>BMI less than 18.5: Underweight</li>
+              <li>BMI between 18.5 and 24.9: Normal weight</li>
+              <li>BMI between 25 and 29.9: Overweight</li>
+              <li>BMI 30 or greater: Obese</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="edzok0">
+  <h1>Coaches</h1>
+<div class="edzok ">
+    <div class="cardd" ">
+      <img class="card-img-top" src="https://nationalpti.org/wp-content/uploads/2014/02/Personal-Trainer.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">David Johnson</h5>
+        <h6>Personal trainer </h6>
+        <p class="card-text">"David Johnson is a seasoned trainer with over 15 years of experience in strength training and conditioning."</p>
+        <a>Learn more</a>
+      </div>
+    </div>
+
+    <div class="cardd">
+      <img class="card-img-top" src="https://i.pinimg.com/736x/f5/6d/19/f56d191b5b4d243b0c5d2ccbf52fe1cb.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Olivia Chen</h5>
+        <h6>Yoga instructor</h6>
+        <p class="card-text">"Olivia Chen is a yoga instructor who focuses on the mind-body connection and helps clients improve their flexibility, balance, and mindfulness through yoga."</p>
+        <a>Learn more</a>
+      </div>
+    </div>
+
+    <div class="cardd">
+      <img class="card-img-top" src="https://media.istockphoto.com/id/1369509413/photo/shot-of-a-handsome-young-man-taking-a-break-during-his-workout.jpg?b=1&s=170667a&w=0&k=20&c=MC2um7AEeVfi6Omt4i4ygVzO42upQt4jvI32tHgt0OE=" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Marcus Lee</h5>
+        <h6>Nutritionist</h6>
+        <p class="card-text">"Marcus Lee is a certified nutritionist who specializes in creating custom meal plans that help clients achieve their fitness goals."</p>
+        <a>Learn more</a>
+      </div>
+    </div>
+
+    <div class="cardd">
+      <img class="card-img-top" src="https://assets.sweat.com/html_body_blocks/images/000/014/675/original/MyFitnessJourney_ena0e01416fc9c86330502c0abd7a1e7ab.jpg?1572219877" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Samantha Wright</h5>
+        <h6>Personal trainer</h6>
+        <p class="card-text"> "Samantha Wright is a personal trainer who motivates and inspires clients to push beyond their limits and achieve their fitness goals with a combination of strength training and cardio workouts."</p>
+        <a>Learn more</a>
+      </div>
+    </div>
+</div>
+</div>
+    <div class="container-fluid ">
+      <footer>
+        <div class="">
+          <div class="">
+            <div class="">
+              <div class="">
+                <h3 class="bold-text">
+                  Fitness & Health
+                </h3>
+              </div>
+              <div class="ff">
+                <div class="col-xl-2 ">
+                  <h6 class="mb-3 bold-text"><b>MENU</b></h6>
+                  <ul class="list-unstyled">
+                    <li><a href="1.html"> Home</li></a>
+                    <li><a href="about.html"> About</li></a>
+                    <li><a href="shop.html"> Shop</li></a>
+                    <li><a href="contact.html"> Contact</li></a>
+
+                  </ul>
+                </div>
+                <div class="col-xl-2 ">
+                  <h6 class="mb-3  bold-text"><b>Services</b></h6>
+                  <ul class="list-unstyled">
+                    <li> <a href="serivce.html#pt">Personal Training</a></li>
+                    <li><a href="serivce.html#gfc">Group Fitness Classes</a></li>
+                    <li> <a href="serivce.html#ofp">Online Fitness</a></li>
+                    <li><a href="serivce.html#nc">Nutrition Coaching</a></li>
+                  </ul>
+                </div>
+                <div class="col-xl-2 ">
+                  <h6 class="mb-3  text-muted bold-text">
+                    <b>ADDRESS</b>
+                  </h6>
+                  <p class="mb-1"><i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+                    Hungary</p>
+                  <p>Debrecen</p>
+                </div>
+
+                <div
+                  class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3"
+                >
+                  <h6 class="text-muted bold-text"><b>Contact</b></h6>
+
+                  <p><i class="fa fa-envelope" style="font-size:24px"></i>
+                    horvathvvilmos22@gmail.com</p>
+                  <p><i class="fa fa-phone" style="font-size:24px"></i>
+                    + 36 30 070 46 16</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-snapchat"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="1.js"></script>
+  </body>
+</html>

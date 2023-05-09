@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background: rgb(124, 255, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 255, 238, 1) 34%,
+    rgba(143, 255, 223, 0.9304315476190477) 68%
+  );
+}
+
+nav img {
+  height: 100%;
+  padding: 5px;
+}
+
+.picnav {
+  height: 70px;
+}
+
+.ulnav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding-top: 70px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+.titlee {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+.servicecard {
+  display: flex;
+  margin-bottom: 150px 0;
+  align-items: center;
+}
+
+.servicecard2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px 0;
+}
+
+.servicecard img,
+.servicecard2 img {
+  width: 100%;
+  text-align: center;
+  padding: 0px 50px 100px 50px;
+}
+
+.servicecard a,
+.servicecard2 a {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #08e1ae;
+  background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.servicecard a:hover,
+.servicecard2 a:hover {
+  transform: scale(105%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.cardleft,
+.cardright {
+  width: 50%;
+}
+
+.cardleft {
+  padding: 0 50px;
+}
+
+.servicecard h2,
+.servicecard2 h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.servicecard p,
+.servicecard2 p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.servicecard h4,
+.servicecard2 h4 {
+  font-size: 24px;
+}
+
+.servicecard li,
+.servicecard2 li {
+  list-style: square;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.servicecard ul,
+.servicecard2 ul {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.center {
+  background-image: url("https://images.pexels.com/photos/2254135/pexels-photo-2254135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 400px;
+  background-position: bottom;
+  background-size: cover;
+  background-color: rgb(194, 187, 187);
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+  margin-bottom: 70px;
+}
+
+footer {
+  background: #1cd8d2;
+  background: -webkit-linear-gradient(to right, #93edc7, #1cd8d2);
+  background: linear-gradient(to right, #93edc7, #1cd8d2);
+
+  color: white;
+  font-family: "Rubik", sans-serif;
+  height: 100 !important;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 100px;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bold-text {
+  color: #989c9e !important;
+}
+
+h3 {
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(
+    10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+.ff {
+  display: flex;
+  justify-content: center;
+  color: #111;
+}
+
+.col-xl-2 {
+  margin: 30px;
+}
+
+.mb-3,
+.text-muted {
+  font-size: 22px;
+}
+
+footer li,
+footer p,
+.fa-envelope {
+  font-size: 20px;
+}
+.social {
+  text-align: center;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+.social a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.8;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+  .servicecard,
+  .servicecard2,
+  .ff {
+    display: block;
+  }
+
+  .titlee {
+    margin-bottom: 50px;
+  }
+  .cardleft,
+  .cardright {
+    width: 100%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .cardright {
+    padding: 0 50px;
+  }
+
+  .center {
+    height: auto;
+  }
+}

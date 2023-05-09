@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background: rgb(124, 255, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 255, 238, 1) 34%,
+    rgba(143, 255, 223, 0.9304315476190477) 68%
+  );
+}
+
+nav img {
+  height: 100%;
+  padding: 5px;
+}
+
+.picnav {
+  height: 70px;
+}
+
+.ulnav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding-top: 70px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+
+.main {
+  display: flex;
+  margin: 50px 100px 100px 100px;
+}
+
+.mainright img {
+  width: 100%;
+}
+
+.mainleft {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.mainright {
+  width: 40%;
+  align-items: center;
+  display: flex;
+}
+
+.cardmain {
+  display: flex;
+  margin: 20px 0;
+}
+
+.title h3 {
+  font-size: 27px;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.pic {
+  height: 75px;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  width: 50%;
+  padding: 10px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.us {
+  display: flex;
+}
+
+.usleft {
+  width: 40%;
+  padding: 50px;
+}
+
+.usright {
+  width: 60%;
+  padding-right: 100px;
+}
+
+.usleft img {
+  width: 100%;
+}
+
+.spantitle {
+  color: #04af70;
+}
+
+.spantitle2 {
+  font-weight: bold;
+}
+
+.usp {
+  margin: 15px 0;
+  font-size: 23px;
+}
+
+.usright ul {
+  margin-left: 20px;
+}
+
+.usright li {
+  list-style: square;
+  padding: 10px 0;
+  font-size: 21px;
+}
+
+.usright h4 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.usp2 {
+  margin-top: 5px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+footer {
+  background: #1cd8d2;
+  background: -webkit-linear-gradient(to right, #93edc7, #1cd8d2);
+  background: linear-gradient(to right, #93edc7, #1cd8d2);
+  color: black;
+  font-family: "Rubik", sans-serif;
+  height: 100 !important;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 100px;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+small {
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.bold-text {
+  color: #989c9e !important;
+  font-size: 38px;
+}
+
+.mt-55 {
+  margin-top: calc(
+    50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+.col-xl-8 h3 {
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(
+    10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+.ff {
+  display: flex;
+  justify-content: center;
+}
+
+.col-xl-2 {
+  margin: 30px;
+}
+
+.mb-3,
+.text-muted {
+  font-size: 22px;
+}
+
+footer li,
+footer p,
+.fa-envelope {
+  font-size: 20px;
+}
+.social {
+  text-align: center;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+.social a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.8;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+.social a {
+  color: black;
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+  .main {
+    display: block;
+    margin: 0%;
+  }
+
+  .mainleft,
+  .mainright {
+    width: 100%;
+  }
+
+  .cardmain {
+    display: block;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+  }
+
+  .title {
+    padding: 30px 0 0 20px;
+  }
+
+  .us {
+    display: block;
+  }
+
+  .usleft,
+  .usright {
+    width: 100%;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  .usright {
+    padding: 0;
+  }
+
+  .ff {
+    display: block;
+  }
+
+  .all {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .ff {
+    display: block;
+  }
+  .main {
+    display: block;
+    margin: 0%;
+  }
+
+  .mainleft,
+  .mainright {
+    width: 100%;
+  }
+  .all {
+    margin: 0 20px;
+  }
+  #hidden {
+    display: none;
+  }
+  .us {
+    display: block;
+  }
+
+  .usleft,
+  .usright {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .main {
+    display: block;
+    margin: 0%;
+  }
+
+  .all {
+    margin: 0 20px;
+  }
+
+  .mainleft,
+  .mainright {
+    width: 100%;
+  }
+
+  .ff {
+    display: flex;
+  }
+  #hidden {
+    display: none;
+  }
+
+  .us {
+    display: block;
+  }
+
+  .usleft,
+  .usright {
+    width: 100%;
+  }
+}
